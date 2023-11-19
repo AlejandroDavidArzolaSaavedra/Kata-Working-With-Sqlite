@@ -11,6 +11,7 @@ import static kata5p1.MailListReader.read;
 public class Kata5P1 {
 public static void main(String[] args) throws FileNotFoundException {
     Kata5P1 kata = new Kata5P1();
+    // Ruta de tu directorio donde se escuentre el fichero de texto email.txt
     String urlEmail = "C:\\Users\\Lab-DIS\\Documents\\NetBeansProjects\\Kata5P1\\email.txt";        
     List<String> email = read(urlEmail);   
     kata.metodo(email);
@@ -20,22 +21,6 @@ public static void main(String[] args) throws FileNotFoundException {
             insert(mail);
         }
     }
-    
-    /**
-    SelectApp app = new SelectApp();
-    app.selectAll();
-    String url = "jdbc:sqlite:mail.db";
-    String sql = "CREATE TABLE IF NOT EXISTS direcc_email (\n"
-        + " id integer PRIMARY KEY AUTOINCREMENT,\n"
-            + " direccion text NOT NULL);";
-    try (Connection conn = DriverManager.getConnection(url);
-        Statement stmt = conn.createStatement()) {
-        stmt.execute(sql);
-        System.out.println("Tabla creada");
-    } catch (SQLException e) {
-    System.out.println(e.getMessage());
-        }
-        */
     
     private Connection connect() {
         String url = "jdbc:sqlite:mail.db";
