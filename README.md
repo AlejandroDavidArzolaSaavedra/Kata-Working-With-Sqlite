@@ -42,4 +42,6 @@ The SQLite database is configured with the following parameters:
 - The database connection details and file paths are hard-coded in the `Kata5P1` class. Modify them based on your local setup.
 - The `SelectApp` class is included but not currently utilized in the main application.
 
+## 🤝 Contributions
+
 Feel free to explore, modify, and integrate this project into your own Java applications. If you encounter any issues or have questions, please refer to the code comments or reach out for assistance.
