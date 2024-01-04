@@ -24,4 +24,5 @@ To use the project, follow these steps:
 
 ## 🤝 Contributions
 
+<img align="left" width="100" height="100" src="https://github.com/AlejandroDavidArzolaSaavedra/Kata-Working-With-Sqlite/assets/90756437/f83020eb-76e4-4224-87e4-ae2a2d370b05g"></a>
 Feel free to explore, modify, and integrate this project into your own Java applications. If you encounter any issues or have questions, please refer to the code comments or reach out for assistance.
