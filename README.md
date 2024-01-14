@@ -1,6 +1,6 @@
 <h1 align="center">Working width DB SqLite 🛢️</h1>
-
-This project focuses on working with an SQLite database to manage a list of email addresses. The main class, `Kata5P1`, reads email addresses from a file, `email.txt`, and inserts them into an SQLite database named `mail.db`. The database has a single table named `direcc_email`, which stores email addresses.
+<img align="left" width="120" height="120" src="https://github.com/AlejandroDavidArzolaSaavedra/Kata-Working-With-Sqlite/assets/90756437/815e51e2-8ade-4275-ba17-8e44def3337c">
+This project focuses on working with an SQLite database to manage a list of email addresses. The main class, `Kata5P1`, reads email addresses from a file, `email.txt`, and inserts them into an SQLite database named `mail.db`. The database has a single table named `direcc_email`, which stores email addresses.<br><br>
 
 # 👥 Development Team (Ctrl + Click to view profiles)
 
